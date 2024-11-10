@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container{
     margin: 20px;
     display: flex;
@@ -17,5 +23,21 @@
 .box{
     width: 35px;
     height: 35px;
-    background-color: rgb(255, 255, 255);
+}
+
+button{
+    border: 0;
+    width: 10%;
+    margin: 12px 0;
+    padding: 12px 0;
+    border-radius: 4px;
+    background-color: royalblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+}
+
+button:hover{
+    scale: 1.02;
+    cursor: pointer;
 }
